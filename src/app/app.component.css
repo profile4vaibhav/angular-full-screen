@@ -1,0 +1,35 @@
+p {
+  font-family: Lato;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#myDiv.fullscreen {
+  z-index: 9999;
+  width: 50%;
+  height: 500px;
+  /* position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; */
+}
+
+#myDiv {
+  background: #cc0000;
+  width: 500px;
+  height: 400px;
+}
+
+.close-btn {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+  margin-left: 1rem;
+  cursor: pointer;
+}
